@@ -4,11 +4,13 @@ module.exports = {
         "./components/**/*.{js,ts,jsx,tsx}",
     ],
     theme: {
-        colors: {
-            "river-styx": "#121823",
-            "bright-greek": "#3C43EE",
+        extend: {
+            colors: {
+                "river-styx": "#121823",
+                "bright-greek": "#3C43EE",
+            },
         },
-        extend: {},
     },
-    plugins: [],
+    // eslint-disable-next-line global-require
+    plugins: [require("@tailwindcss/forms")],
 };
