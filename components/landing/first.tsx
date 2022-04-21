@@ -76,8 +76,8 @@ const First = () => {
                         </p>
                         <div className="mt-8 sm:max-w-lg sm:mx-auto sm:text-center lg:text-left lg:mx-0">
                             <button
-                                type="submit"
-                                className="mt-3 w-full px-6 py-3 border cursor-pointer border-transparent text-base font-medium rounded-md text-white bg-bright-greek shadow-sm focus:outline-none sm:mt-0 sm:ml-3 sm:flex-shrink-0 sm:inline-flex sm:items-center sm:w-auto"
+                                type="button"
+                                className="mt-3 btn w-full px-6 py-3 border cursor-pointer border-transparent text-base font-medium rounded-md text-white bg-bright-greek shadow-sm focus:outline-none sm:mt-0 sm:ml-3 sm:flex-shrink-0 sm:inline-flex sm:items-center sm:w-auto"
                             >
                                 Get Started
                             </button>
