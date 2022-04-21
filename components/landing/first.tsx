@@ -133,7 +133,6 @@ const First = () => {
                                 <span className="sr-only">
                                     Watch our video to learn more
                                 </span>
-                                {/* eslint-disable-next-line @next/next/no-img-element */}
                                 <Image
                                     className="w-full"
                                     src="https://images.unsplash.com/photo-1650346910623-3a0d9ee1f2ae?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2371&q=80"
