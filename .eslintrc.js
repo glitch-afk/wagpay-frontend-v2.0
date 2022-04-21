@@ -70,6 +70,7 @@ module.exports = {
                 aspects: ["invalidHref", "preferButton"],
             },
         ],
+        "jsx-a11y/click-events-have-key-events": "off",
         "no-nested-ternary": "off",
         "import/prefer-default-export": "off",
     },
