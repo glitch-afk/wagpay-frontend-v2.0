@@ -77,7 +77,7 @@ const First = () => {
                         <div className="mt-8 sm:max-w-lg sm:mx-auto sm:text-center lg:text-left lg:mx-0">
                             <button
                                 type="button"
-                                className="mt-3 btn w-full px-6 py-3 border cursor-pointer border-transparent text-base font-medium rounded-md text-white bg-bright-greek shadow-sm focus:outline-none sm:mt-0 sm:ml-3 sm:flex-shrink-0 sm:inline-flex sm:items-center sm:w-auto"
+                                className="mt-3 btn w-full px-6 py-3 border cursor-pointer border-transparent text-base font-medium rounded text-white bg-bright-greek shadow-sm focus:outline-none sm:mt-0 sm:ml-3 sm:flex-shrink-0 sm:inline-flex sm:items-center sm:w-auto"
                             >
                                 Get Started
                             </button>
@@ -125,10 +125,10 @@ const First = () => {
                                 fill="url(#4f4f415c-a0e9-44c2-9601-6ded5a34a13e)"
                             />
                         </svg>
-                        <div className="relative mx-auto w-full rounded-lg shadow-lg lg:max-w-md">
+                        <div className="relative mx-auto w-full rounded shadow-lg lg:max-w-md">
                             <button
                                 type="button"
-                                className="relative block w-full bg-white rounded-lg overflow-hidden focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
+                                className="relative block w-full bg-white rounded overflow-hidden focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
                             >
                                 <span className="sr-only">
                                     Watch our video to learn more
@@ -146,6 +146,7 @@ const First = () => {
                     </div>
                 </div>
             </main>
+            <Image src="/scroll.png" height={30} width={30} />
         </div>
     );
 };
