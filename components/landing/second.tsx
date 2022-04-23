@@ -72,10 +72,10 @@ const Second = () => {
                         </span>
                         <div className="md:mt-48 mt-40">
                             <div className="flex md:flex-row flex-col flex-wrap items-center xl:justify-between justify-center">
-                                <div className="px-4 sm:flex sm:items-center sm:justify-center md:mt-0 mt-16 xl:w-1/3 sm:w-1/2">
-                                    <div className="bg-bright-greek flex flex-col px-5 items-center justify-center relative xl:w-full h-full pb-32">
+                                <div className="px-4  sm:flex sm:items-center sm:justify-center md:mt-0 mt-16 xl:w-1/3 sm:w-1/2">
+                                    <div className="bg-bright-greek flex rounded flex-col px-5 items-center justify-center relative xl:w-full h-full pb-32">
                                         <img
-                                            className="w-full object-cover object-center -mt-32"
+                                            className="w-full object-cover object-center rounded -mt-32"
                                             src="https://images.unsplash.com/photo-1650346910623-3a0d9ee1f2ae?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2371&q=80"
                                             alt="a building made of mirrored glass"
                                             role="img"
@@ -94,9 +94,9 @@ const Second = () => {
                                     </div>
                                 </div>
                                 <div className="px-4 sm:flex sm:items-center sm:justify-center md:mt-0 mt-48 xl:w-1/3 sm:w-1/2 xl:-mb-48">
-                                    <div className="bg-bright-greek flex flex-col px-5 items-center justify-center relative xl:w-full h-full pb-32">
+                                    <div className="bg-bright-greek flex flex-col px-5 rounded items-center justify-center relative xl:w-full h-full pb-32">
                                         <img
-                                            className="w-full object-cover object-center -mt-32"
+                                            className="w-full object-cover object-center -mt-32 rounded"
                                             src="https://images.unsplash.com/photo-1650346910623-3a0d9ee1f2ae?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2371&q=80"
                                             alt="a building made of mirrored glass"
                                             role="img"
@@ -115,9 +115,9 @@ const Second = () => {
                                     </div>
                                 </div>
                                 <div className="px-4 sm:flex sm:items-center sm:justify-center xl:mt-0 lg:mt-48 mt-48 xl:w-1/3 sm:w-1/2">
-                                    <div className="bg-bright-greek flex flex-col px-5 items-center justify-center relative h-full pb-32">
+                                    <div className="bg-bright-greek flex flex-col px-5 rounded items-center justify-center relative h-full pb-32">
                                         <img
-                                            className="w-full object-cover object-center -mt-32"
+                                            className="w-full object-cover object-center -mt-32 rounded"
                                             src="https://images.unsplash.com/photo-1650346910623-3a0d9ee1f2ae?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2371&q=80"
                                             alt="A balcony with lights in the background"
                                             role="img"
@@ -140,9 +140,9 @@ const Second = () => {
                         <div className="mt-48">
                             <div className="flex md:flex-row flex-col flex-wrap items-center xl:justify-between justify-center">
                                 <div className="px-4 sm:flex sm:items-center sm:justify-center md:mt-0 mt-16 xl:w-1/3 sm:w-1/2">
-                                    <div className="bg-bright-greek flex flex-col px-5 items-center justify-center relative xl:w-full h-full pb-32">
+                                    <div className="bg-bright-greek flex flex-col px-5 rounded items-center justify-center relative xl:w-full h-full pb-32">
                                         <img
-                                            className="w-full object-cover object-center -mt-32"
+                                            className="w-full object-cover object-center -mt-32 rounded"
                                             src="https://images.unsplash.com/photo-1650346910623-3a0d9ee1f2ae?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2371&q=80"
                                             alt="A gray building wall with multiple windows"
                                             role="img"
@@ -161,9 +161,9 @@ const Second = () => {
                                     </div>
                                 </div>
                                 <div className="px-4 sm:flex sm:items-center sm:justify-center md:mt-0 mt-48 xl:w-1/3 sm:w-1/2 xl:-mb-48">
-                                    <div className="bg-bright-greek flex flex-col px-5 items-center justify-center relative xl:w-full h-full pb-32">
+                                    <div className="bg-bright-greek flex flex-col px-5 rounded items-center justify-center relative xl:w-full h-full pb-32">
                                         <img
-                                            className="w-full object-cover object-center -mt-32"
+                                            className="w-full object-cover object-center -mt-32 rounded"
                                             src="https://images.unsplash.com/photo-1650346910623-3a0d9ee1f2ae?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2371&q=80"
                                             alt="A tall building having multiple windows and hazy sky in the back."
                                             role="img"
@@ -182,9 +182,9 @@ const Second = () => {
                                     </div>
                                 </div>
                                 <div className="px-4 sm:flex sm:items-center sm:justify-center xl:mt-0 lg:mt-48 mt-48 xl:w-1/3 sm:w-1/2">
-                                    <div className="bg-bright-greek flex flex-col px-5 items-center justify-center relative h-full pb-32">
+                                    <div className="bg-bright-greek flex flex-col px-5 rounded items-center justify-center relative h-full pb-32">
                                         <img
-                                            className="w-full object-cover object-center -mt-32"
+                                            className="w-full object-cover object-center -mt-32 rounded"
                                             src="https://images.unsplash.com/photo-1650346910623-3a0d9ee1f2ae?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2371&q=80"
                                             alt="A house with multiple pillars and overcast sky in the back"
                                             role="img"

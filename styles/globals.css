@@ -3,7 +3,6 @@
 @tailwind utilities;
 
 .btn {
-    padding: 10px 24px;
     font-size: 15px;
     outline: none;
     border: 1px solid white;

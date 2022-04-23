@@ -55,7 +55,7 @@ const First = () => {
                             <span className="block text-sm font-semibold uppercase tracking-wide text-gray-500 sm:text-base lg:text-sm xl:text-base">
                                 Coming soon
                             </span>
-                            <span className="mt-1 block text-4xl tracking-tight font-extrabold sm:text-5xl xl:text-6xl">
+                            <span className="mt-1 block text-5xl tracking-tight font-extrabold sm:text-5xl xl:text-7xl">
                                 <span className="block text-gray-900">
                                     Powering Your
                                 </span>
@@ -77,7 +77,7 @@ const First = () => {
                         <div className="mt-8 sm:max-w-lg sm:mx-auto sm:text-center lg:text-left lg:mx-0">
                             <button
                                 type="button"
-                                className="mt-3 btn w-full px-6 py-3 border cursor-pointer border-transparent text-base font-medium rounded text-white bg-bright-greek shadow-sm focus:outline-none sm:mt-0 sm:ml-3 sm:flex-shrink-0 sm:inline-flex sm:items-center sm:w-auto"
+                                className="mt-3 btn w-full px-8 py-4 cursor-pointer border-transparent text-base font-medium rounded text-white bg-bright-greek shadow-sm focus:outline-none sm:mt-0 ml-2 sm:flex-shrink-0 sm:inline-flex sm:items-center sm:w-auto"
                             >
                                 Get Started
                             </button>
