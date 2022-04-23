@@ -10,6 +10,7 @@ const Second = () => {
                     width="full"
                     height="full"
                     viewBox="0 0 1440 1175"
+                    className="absolute top-0 right-0 left-0"
                     fill="none"
                     xmlns="http://www.w3.org/2000/svg"
                 >
@@ -44,7 +45,7 @@ const Second = () => {
                         </linearGradient>
                     </defs>
                 </svg>
-                <div className="pt-16 absolute top-0 left-0 right-0 pb-32">
+                <div className="pt-16 pb-32">
                     <div className="w-full mx-auto container 2xl:px-0 xl:px-4 px-8">
                         <div className="flex items-center justify-between">
                             <div className="md:w-2/5 w-1/3 relative z-0 pr-4">

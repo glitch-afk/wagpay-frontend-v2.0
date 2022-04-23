@@ -146,7 +146,6 @@ const First = () => {
                     </div>
                 </div>
             </main>
-            <Image src="/scroll.png" height={30} width={30} />
         </div>
     );
 };
