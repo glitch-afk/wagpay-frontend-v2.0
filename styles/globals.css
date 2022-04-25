@@ -15,7 +15,6 @@
     content: "Get Started";
     /*button's value/text-content */
     position: absolute;
-    border-radius: 4px;
     top: -8%;
     right: 2%;
     background-color: #3c43ee;
@@ -32,4 +31,12 @@
 .btn:hover::before {
     top: 0;
     right: 0;
+}
+
+.card_gradient {
+    background: linear-gradient(
+        174.42deg,
+        rgba(60, 67, 238, 0.0296) 41.41%,
+        rgba(80, 85, 218, 0.0814) 93.31%
+    );
 }

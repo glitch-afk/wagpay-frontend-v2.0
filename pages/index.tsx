@@ -10,10 +10,7 @@ const Home: NextPage = () => {
     return (
         <div className="bg-river-styx">
             <Navbar />
-            <div className="2xl:container  2xl:mx-auto lg:px-7 sm:px-6 py-6 px-4">
-                <First />
-            </div>
-
+            <First />
             <div className="w-full relative">
                 <svg
                     width="1440"
@@ -53,9 +50,7 @@ const Home: NextPage = () => {
                 <Second />
             </div>
             <Third />
-            <div className="2xl:container bg-river-styx 2xl:mx-auto lg:px-7 sm:px-6 py-6 px-4">
-                <Fourth />
-            </div>
+            <Fourth />
             <Footer />
         </div>
     );

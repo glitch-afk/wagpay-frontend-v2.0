@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const First = () => {
     return (
-        <div className="relative bg-river-styx h-screen overflow-hidden">
+        <div className="relative bg-river-styx h-screen overflow-hidden mt-16">
             <div
                 className="hidden lg:block lg:absolute lg:inset-0"
                 aria-hidden="true"
