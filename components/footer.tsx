@@ -12,7 +12,7 @@ const navigation = {
         { name: "Contact Us", href: "#" },
     ],
     support: [
-        { name: "Discrod", href: "#" },
+        { name: "Discord", href: "#" },
         { name: "Twitter", href: "#" },
     ],
     company: [
@@ -82,7 +82,7 @@ const navigation = {
 
 const Footer = () => {
     return (
-        <footer className="bg-white" aria-labelledby="footer-heading">
+        <footer className="bg-river-styx" aria-labelledby="footer-heading">
             <h2 id="footer-heading" className="sr-only">
                 Footer
             </h2>

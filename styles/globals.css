@@ -5,8 +5,8 @@
 .btn {
     font-size: 15px;
     outline: none;
-    border: 1px solid white;
-    background-color: #121823;
+    border: 1px solid #121823;
+    background-color: white;
     position: relative;
     letter-spacing: 1px;
 }
@@ -16,8 +16,8 @@
     /*button's value/text-content */
     position: absolute;
     border-radius: 4px;
-    top: -14%;
-    right: 4%;
+    top: -8%;
+    right: 2%;
     background-color: #3c43ee;
     width: 100%;
     height: 100%;

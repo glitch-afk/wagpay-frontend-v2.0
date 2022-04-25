@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const First = () => {
     return (
-        <div className="relative bg-white h-screen overflow-hidden">
+        <div className="relative bg-river-styx h-screen overflow-hidden">
             <div
                 className="hidden lg:block lg:absolute lg:inset-0"
                 aria-hidden="true"
@@ -28,7 +28,7 @@ const First = () => {
                                 y={0}
                                 width={4}
                                 height={4}
-                                className="text-gray-200"
+                                className="text-gray-700"
                                 fill="currentColor"
                             />
                         </pattern>
@@ -37,7 +37,7 @@ const First = () => {
                         y={72}
                         width={640}
                         height={640}
-                        className="text-gray-50"
+                        className="text-gray-800"
                         fill="currentColor"
                     />
                     <rect
@@ -52,25 +52,25 @@ const First = () => {
                 <div className="lg:grid lg:grid-cols-12 lg:gap-8">
                     <div className="sm:text-center md:max-w-2xl md:mx-auto lg:col-span-6 lg:text-left">
                         <h1>
-                            <span className="block text-sm font-semibold uppercase tracking-wide text-gray-500 sm:text-base lg:text-sm xl:text-base">
+                            <span className="block text-sm font-semibold uppercase tracking-wide text-white sm:text-base lg:text-sm xl:text-base">
                                 Coming soon
                             </span>
                             <span className="mt-1 block text-5xl tracking-tight font-extrabold sm:text-5xl xl:text-7xl">
-                                <span className="block text-gray-900">
+                                <span className="block text-white">
                                     Powering Your
                                 </span>
                                 <span className="inline-block text-bright-greek">
                                     Finances
                                 </span>
-                                <span className="inline-block text-gray-900">
+                                <span className="inline-block text-white">
                                     With Next
                                 </span>
-                                <span className="block text-gray-900">
+                                <span className="block text-white">
                                     Chapter Of Internet
                                 </span>
                             </span>
                         </h1>
-                        <p className="mt-3 text-base text-gray-500 sm:mt-5 sm:text-xl lg:text-lg xl:text-xl">
+                        <p className="mt-3 text-base text-gray-300 sm:mt-5 sm:text-xl lg:text-lg xl:text-xl">
                             A payment solution that simplifies payment
                             acceptance for the next chapter of the internet.
                         </p>
@@ -106,7 +106,7 @@ const First = () => {
                                         y={0}
                                         width={4}
                                         height={4}
-                                        className="text-gray-200"
+                                        className="text-gray-700"
                                         fill="currentColor"
                                     />
                                 </pattern>
@@ -115,7 +115,7 @@ const First = () => {
                                 y={72}
                                 width={640}
                                 height={640}
-                                className="text-gray-50"
+                                className="text-gray-700"
                                 fill="currentColor"
                             />
                             <rect
@@ -128,11 +128,8 @@ const First = () => {
                         <div className="relative mx-auto w-full rounded shadow-lg lg:max-w-md">
                             <button
                                 type="button"
-                                className="relative block w-full bg-white rounded overflow-hidden focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
+                                className="relative block w-full bg-river-styx rounded overflow-hidden focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
                             >
-                                <span className="sr-only">
-                                    Watch our video to learn more
-                                </span>
                                 <Image
                                     className="w-full"
                                     src="https://images.unsplash.com/photo-1650346910623-3a0d9ee1f2ae?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2371&q=80"
