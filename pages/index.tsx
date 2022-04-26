@@ -8,7 +8,7 @@ import Footer from "../components/footer";
 
 const Home: NextPage = () => {
     return (
-        <div className="bg-river-styx">
+        <div className="bg-dark_gray">
             <Navbar />
             <First />
             <div className="w-full relative">

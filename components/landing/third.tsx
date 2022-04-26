@@ -5,7 +5,7 @@ const Third = () => {
     return (
         <div
             id="claim"
-            className=" bg-bright-greek pb-16 lg:relative lg:pb-0 lg:my-20"
+            className=" bg-bright-greek  pb-16 lg:relative lg:pb-0 lg:my-20"
         >
             <div className="lg:mx-auto lg:grid lg:max-w-7xl lg:grid-cols-3 lg:gap-8 lg:px-8">
                 <div className="relative lg:-my-8">
