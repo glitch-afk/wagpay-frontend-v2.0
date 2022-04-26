@@ -1,9 +1,6 @@
 import type { NextPage } from "next";
 import Navbar from "../components/Navbar";
-import First from "../components/landing/first";
-import Second from "../components/landing/second";
-import Third from "../components/landing/third";
-import Fourth from "../components/landing/fourth";
+import { First, Second, Third, Fourth, Support } from "../components/landing";
 import Footer from "../components/footer";
 
 const Home: NextPage = () => {
@@ -46,11 +43,11 @@ const Home: NextPage = () => {
                         </linearGradient>
                     </defs>
                 </svg>
-
                 <Second />
             </div>
             <Third />
             <Fourth />
+            <Support />
             <Footer />
         </div>
     );

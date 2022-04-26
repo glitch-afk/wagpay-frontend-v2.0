@@ -8,7 +8,7 @@ const First = () => {
                 aria-hidden="true"
             >
                 <svg
-                    className="absolute top-0 left-1/2 transform translate-x-64 -translate-y-8"
+                    className="absolute top-0 left-1/2 transform translate-x-64 -translate-y-8 opacity-20"
                     width={640}
                     height={784}
                     fill="none"
@@ -28,7 +28,7 @@ const First = () => {
                                 y={0}
                                 width={4}
                                 height={4}
-                                className="text-gray-700"
+                                className="text-gray-600"
                                 fill="currentColor"
                             />
                         </pattern>
