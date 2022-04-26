@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const First = () => {
     return (
-        <div className="relative bg-river-styx h-screen overflow-hidden mt-16">
+        <div className="relative bg-river-styx h-screen overflow-hidden mt-10">
             <div
                 className="hidden lg:block lg:absolute lg:inset-0"
                 aria-hidden="true"
@@ -48,14 +48,11 @@ const First = () => {
                     />
                 </svg>
             </div>
-            <main className="mt-16 mx-auto max-w-8xl px-4 sm:mt-24 sm:px-24 lg:mt-32">
+            <main className="mt-16 mx-auto max-w-8xl px-4 sm:mt-24 sm:px-24 lg:mt-24">
                 <div className="lg:grid lg:grid-cols-12 lg:gap-8">
                     <div className="sm:text-center md:max-w-2xl md:mx-auto lg:col-span-6 lg:text-left">
                         <h1>
-                            <span className="block text-sm font-semibold uppercase tracking-wide text-white sm:text-base lg:text-sm xl:text-base">
-                                Coming soon
-                            </span>
-                            <span className="mt-1 block text-5xl tracking-tight font-extrabold sm:text-5xl xl:text-7xl">
+                            <span className="mt-1 block text-5xl font-cerebri tracking-tight font-extrabold sm:text-5xl xl:text-7xl">
                                 <span className="block text-white">
                                     Powering Your
                                 </span>
@@ -70,14 +67,14 @@ const First = () => {
                                 </span>
                             </span>
                         </h1>
-                        <p className="mt-3 text-base text-gray-300 sm:mt-5 sm:text-xl lg:text-lg xl:text-xl">
+                        <p className="mt-3 text-base font-avenir text-gray-300 sm:mt-5 sm:text-xl lg:text-lg xl:text-xl">
                             A payment solution that simplifies payment
                             acceptance for the next chapter of the internet.
                         </p>
                         <div className="mt-8 sm:max-w-lg sm:mx-auto sm:text-center lg:text-left lg:mx-0">
                             <button
                                 type="button"
-                                className="mt-3 btn w-full px-8 py-4 cursor-pointer border-transparent text-base font-medium rounded text-white bg-bright-greek shadow-sm focus:outline-none sm:mt-0 ml-2 sm:flex-shrink-0 sm:inline-flex sm:items-center sm:w-auto"
+                                className="mt-3 btn font-avenir w-full px-8 py-4 cursor-pointer border-transparent text-base rounded text-white bg-bright-greek shadow-sm focus:outline-none sm:mt-0 ml-2 sm:flex-shrink-0 sm:inline-flex sm:items-center sm:w-auto"
                             >
                                 Get Started
                             </button>

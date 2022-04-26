@@ -2,6 +2,16 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+    font-family: "Cerebri";
+    src: url("/fonts/CerebriSansBold.ttf");
+}
+
+@font-face {
+    font-family: "Avenir";
+    src: url("/fonts/AvenirLTProBook.otf");
+}
+
 .btn {
     font-size: 15px;
     outline: none;
@@ -34,9 +44,7 @@
 }
 
 .card_gradient {
-    background: linear-gradient(
-        174.42deg,
-        rgba(60, 67, 238, 0.0296) 41.41%,
-        rgba(80, 85, 218, 0.0814) 93.31%
-    );
+    background: linear-gradient(174.42deg,
+            rgba(60, 67, 238, 0.0296) 41.41%,
+            rgba(80, 85, 218, 0.0814) 93.31%);
 }

@@ -12,7 +12,7 @@ const Second = () => {
                             <hr />
                         </div>
                         <div className="text-center w-40">
-                            <p className="text-bright-greek text-center relative z-20 text-lg flex-shrink-0 flex font-bold">
+                            <p className="text-bright-greek text-center font-avenir relative z-20 text-lg flex-shrink-0 flex font-bold">
                                 Accept crypto Fast
                             </p>
                         </div>
@@ -21,7 +21,7 @@ const Second = () => {
                             <hr />
                         </div>
                     </div>
-                    <span className="mt-8 block text-center text-4xl tracking-tight font-extrabold sm:text-5xl xl:text-5xl">
+                    <span className="mt-8 block text-center font-cerebri text-4xl tracking-tight font-extrabold sm:text-5xl xl:text-5xl">
                         <span className="block text-white">
                             Everything you need to get
                         </span>
@@ -45,7 +45,7 @@ const Second = () => {
                                         <p className="text-2xl font-semibold leading-normal text-gray-800 dark:text-gray-100">
                                             Lorem ipsum dolor
                                         </p>
-                                        <p className="pt-4 text-base font-medium tracking-wider leading-snug text-gray-500 dark:text-gray-400">
+                                        <p className="pt-4 font-avenir text-base font-medium tracking-wider leading-snug text-gray-500 dark:text-gray-400">
                                             Cras tempor orci et ullamcorper
                                             pellentesque. Ut sollicitudin
                                             ultrices lectus. Sed bibendum felis
@@ -74,7 +74,7 @@ const Second = () => {
                                         <p className="text-2xl font-semibold leading-normal text-gray-800 dark:text-gray-100">
                                             Lorem ipsum dolor
                                         </p>
-                                        <p className="pt-4 text-base font-medium tracking-wider leading-snug text-gray-500 dark:text-gray-400">
+                                        <p className="pt-4 font-avenir text-base font-medium tracking-wider leading-snug text-gray-500 dark:text-gray-400">
                                             Cras tempor orci et ullamcorper
                                             pellentesque. Ut sollicitudin
                                             ultrices lectus. Sed bibendum felis
@@ -103,7 +103,7 @@ const Second = () => {
                                         <p className="text-2xl font-semibold leading-normal text-gray-800 dark:text-gray-100">
                                             Lorem ipsum dolor
                                         </p>
-                                        <p className="pt-4 text-base font-medium tracking-wider leading-snug text-gray-500 dark:text-gray-400">
+                                        <p className="pt-4 font-avenir text-base font-medium tracking-wider leading-snug text-gray-500 dark:text-gray-400">
                                             Cras tempor orci et ullamcorper
                                             pellentesque. Ut sollicitudin
                                             ultrices lectus. Sed bibendum felis
@@ -134,7 +134,7 @@ const Second = () => {
                                         <p className="text-2xl font-semibold leading-normal text-gray-800 dark:text-gray-100">
                                             Lorem ipsum dolor
                                         </p>
-                                        <p className="pt-4 text-base font-medium tracking-wider leading-snug text-gray-500 dark:text-gray-400">
+                                        <p className="pt-4 font-avenir text-base font-medium tracking-wider leading-snug text-gray-500 dark:text-gray-400">
                                             Cras tempor orci et ullamcorper
                                             pellentesque. Ut sollicitudin
                                             ultrices lectus. Sed bibendum felis
@@ -163,7 +163,7 @@ const Second = () => {
                                         <p className="text-2xl font-semibold leading-normal text-gray-800 dark:text-gray-100">
                                             Lorem ipsum dolor
                                         </p>
-                                        <p className="pt-4 text-base font-medium tracking-wider leading-snug text-gray-500 dark:text-gray-400">
+                                        <p className="pt-4 font-avenir text-base font-medium tracking-wider leading-snug text-gray-500 dark:text-gray-400">
                                             Cras tempor orci et ullamcorper
                                             pellentesque. Ut sollicitudin
                                             ultrices lectus. Sed bibendum felis
@@ -192,7 +192,7 @@ const Second = () => {
                                         <p className="text-2xl font-semibold leading-normal text-gray-800 dark:text-gray-100">
                                             Lorem ipsum dolor
                                         </p>
-                                        <p className="pt-4 text-base font-medium tracking-wider leading-snug text-gray-500 dark:text-gray-400">
+                                        <p className="pt-4 font-avenir text-base font-medium tracking-wider leading-snug text-gray-500 dark:text-gray-400">
                                             Cras tempor orci et ullamcorper
                                             pellentesque. Ut sollicitudin
                                             ultrices lectus. Sed bibendum felis

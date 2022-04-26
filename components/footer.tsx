@@ -86,12 +86,12 @@ const Footer = () => {
             <h2 id="footer-heading" className="sr-only">
                 Footer
             </h2>
-            <div className="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:py-16 lg:px-8">
+            <div className="mx-auto py-12 xl:mx-32 px-4 sm:px-6 lg:py-16 lg:px-8">
                 <div className="xl:grid xl:grid-cols-3 xl:gap-8">
                     <div className="grid grid-cols-2 gap-8 xl:col-span-2">
                         <div className="md:grid md:grid-cols-2 md:gap-8">
                             <div>
-                                <h3 className="text-sm font-semibold text-gray-400 tracking-wider uppercase">
+                                <h3 className="text-sm font-semibold font-avenir text-gray-400 tracking-wider uppercase">
                                     Solutions
                                 </h3>
                                 <ul className="mt-4 space-y-4">
@@ -99,7 +99,7 @@ const Footer = () => {
                                         <li key={item.name}>
                                             <a
                                                 href={item.href}
-                                                className="text-base text-gray-500 hover:text-gray-900"
+                                                className="text-base text-gray-500 font-avenir hover:text-gray-600"
                                             >
                                                 {item.name}
                                             </a>
@@ -108,7 +108,7 @@ const Footer = () => {
                                 </ul>
                             </div>
                             <div className="mt-12 md:mt-0">
-                                <h3 className="text-sm font-semibold text-gray-400 tracking-wider uppercase">
+                                <h3 className="text-sm font-semibold font-avenir text-gray-400 tracking-wider uppercase">
                                     Support
                                 </h3>
                                 <ul className="mt-4 space-y-4">
@@ -116,7 +116,7 @@ const Footer = () => {
                                         <li key={item.name}>
                                             <a
                                                 href={item.href}
-                                                className="text-base text-gray-500 hover:text-gray-900"
+                                                className="text-base font-avenir text-gray-500 hover:text-gray-600"
                                             >
                                                 {item.name}
                                             </a>
@@ -125,9 +125,9 @@ const Footer = () => {
                                 </ul>
                             </div>
                         </div>
-                        <div className="md:grid md:grid-cols-2 md:gap-8">
+                        <div className="md:grid md:grid-cols-2 font-avenir md:gap-8">
                             <div>
-                                <h3 className="text-sm font-semibold text-gray-400 tracking-wider uppercase">
+                                <h3 className="text-sm font-semibold font-avenir text-gray-400 tracking-wider uppercase">
                                     Company
                                 </h3>
                                 <ul className="mt-4 space-y-4">
@@ -135,7 +135,7 @@ const Footer = () => {
                                         <li key={item.name}>
                                             <a
                                                 href={item.href}
-                                                className="text-base text-gray-500 hover:text-gray-900"
+                                                className="text-base font-avenir text-gray-500 hover:text-gray-600"
                                             >
                                                 {item.name}
                                             </a>
@@ -146,10 +146,10 @@ const Footer = () => {
                         </div>
                     </div>
                     <div className="mt-8 xl:mt-0">
-                        <h3 className="text-sm font-semibold text-gray-400 tracking-wider uppercase">
+                        <h3 className="text-sm font-semibold font-avenir text-gray-400 tracking-wider uppercase">
                             Subscribe to our newsletter
                         </h3>
-                        <p className="mt-4 text-base text-gray-500">
+                        <p className="mt-4 text-base font-avenir text-gray-500">
                             The latest news, articles, and resources, sent to
                             your inbox weekly.
                         </p>
@@ -164,13 +164,13 @@ const Footer = () => {
                                 id="email-address"
                                 autoComplete="email"
                                 required
-                                className="appearance-none min-w-0 w-full bg-white border border-gray-300 rounded shadow-sm py-2 px-4 text-base text-gray-900 placeholder-gray-500 focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 focus:placeholder-gray-400"
+                                className="appearance-none font-avenir min-w-0 w-full bg-white border border-gray-300 rounded shadow-sm py-2 px-4 text-base text-gray-900 placeholder-gray-500 focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 focus:placeholder-gray-400"
                                 placeholder="Enter your email"
                             />
                             <div className="mt-3 rounded sm:mt-0 sm:ml-3 sm:flex-shrink-0">
                                 <button
                                     type="submit"
-                                    className="w-full bg-bright-greek flex items-center justify-center border border-transparent rounded py-2 px-4 text-base font-medium text-white hover:bg-indigo-700 focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
+                                    className="w-full font-avenir bg-bright-greek flex items-center justify-center border border-transparent rounded py-2 px-4 text-base font-medium text-white hover:bg-indigo-700 focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
                                 >
                                     Subscribe
                                 </button>
@@ -194,7 +194,7 @@ const Footer = () => {
                             </a>
                         ))}
                     </div>
-                    <p className="mt-8 text-base text-gray-400 md:mt-0 md:order-1">
+                    <p className="mt-8 text-base text-gray-400 md:mt-0 font-avenir md:order-1">
                         &copy; 2022 WagPay, Inc. All rights reserved.
                     </p>
                 </div>

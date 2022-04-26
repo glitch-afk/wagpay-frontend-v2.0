@@ -9,6 +9,10 @@ module.exports = {
                 "river-styx": "#121823",
                 "bright-greek": "#3C43EE",
             },
+            fontFamily: {
+                'cerebri': ['Cerebri', 'sans-serif'],
+                'avenir': ['Avenir', 'sans-serif']
+            }
         },
     },
     // eslint-disable-next-line global-require
