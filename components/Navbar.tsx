@@ -1,5 +1,6 @@
 // eslint-disable-next-line no-use-before-define
 import React, { useState } from "react";
+import Link from "next/link";
 
 const Navbar = () => {
     const [show, setshow] = useState(false);
@@ -25,25 +26,27 @@ const Navbar = () => {
                                 <p>Use Cases</p>
                             </a>
                             {/* Save button */}
-                            <a className="rounded flex space-x-2 w-48 h-10 font-normal font-avenir cursor-pointer text-base leading-3 text-white bg-bright-greek focus:outline-none focus:bg-indigo-800 focus:ring-2 focus:ring-offset-2 focus:ring-indigo-700 hover:bg-indigo-600 duration-150 justify-center items-center">
-                                <p>Getting Started</p>
-                                <svg
-                                    xmlns="http://www.w3.org/2000/svg"
-                                    xmlnsXlink="http://www.w3.org/1999/xlink"
-                                    aria-hidden="true"
-                                    role="img"
-                                    className="iconify iconify--ic"
-                                    width="18"
-                                    height="18"
-                                    preserveAspectRatio="xMidYMid meet"
-                                    viewBox="0 0 24 24"
-                                >
-                                    <path
-                                        fill="currentColor"
-                                        d="M8.59 16.59L13.17 12L8.59 7.41L10 6l6 6l-6 6l-1.41-1.41z"
-                                    />
-                                </svg>
-                            </a>
+                            <Link href="/signup">
+                                <a className="rounded flex space-x-2 w-48 h-10 font-normal font-avenir cursor-pointer text-base leading-3 text-white bg-bright-greek focus:outline-none focus:bg-indigo-800 focus:ring-2 focus:ring-offset-2 focus:ring-indigo-700 hover:bg-indigo-600 duration-150 justify-center items-center">
+                                    <p>Getting Started</p>
+                                    <svg
+                                        xmlns="http://www.w3.org/2000/svg"
+                                        xmlnsXlink="http://www.w3.org/1999/xlink"
+                                        aria-hidden="true"
+                                        role="img"
+                                        className="iconify iconify--ic"
+                                        width="18"
+                                        height="18"
+                                        preserveAspectRatio="xMidYMid meet"
+                                        viewBox="0 0 24 24"
+                                    >
+                                        <path
+                                            fill="currentColor"
+                                            d="M8.59 16.59L13.17 12L8.59 7.41L10 6l6 6l-6 6l-1.41-1.41z"
+                                        />
+                                    </svg>
+                                </a>
+                            </Link>
                         </div>
                         {/* Burger Icon */}
 
@@ -131,25 +134,27 @@ const Navbar = () => {
                                 <p>Use Cases</p>
                             </a>
                             {/* Getting Started button */}
-                            <a className="cursor-pointer rounded-md flex space-x-2 w-full h-10 font-normal text-sm leading-3 text-white bg-bright-greek focus:outline-none focus:bg-indigo-800 hover:bg-indigo-800 duration-150 justify-center items-center">
-                                <p>Getting Started</p>
-                                <svg
-                                    xmlns="http://www.w3.org/2000/svg"
-                                    xmlnsXlink="http://www.w3.org/1999/xlink"
-                                    aria-hidden="true"
-                                    role="img"
-                                    className="iconify iconify--ic"
-                                    width="18"
-                                    height="18"
-                                    preserveAspectRatio="xMidYMid meet"
-                                    viewBox="0 0 24 24"
-                                >
-                                    <path
-                                        fill="currentColor"
-                                        d="M8.59 16.59L13.17 12L8.59 7.41L10 6l6 6l-6 6l-1.41-1.41z"
-                                    />
-                                </svg>
-                            </a>
+                            <Link href="/signup">
+                                <a className="cursor-pointer rounded-md flex space-x-2 w-full h-10 font-normal text-sm leading-3 text-white bg-bright-greek focus:outline-none focus:bg-indigo-800 hover:bg-indigo-800 duration-150 justify-center items-center">
+                                    <p>Getting Started</p>
+                                    <svg
+                                        xmlns="http://www.w3.org/2000/svg"
+                                        xmlnsXlink="http://www.w3.org/1999/xlink"
+                                        aria-hidden="true"
+                                        role="img"
+                                        className="iconify iconify--ic"
+                                        width="18"
+                                        height="18"
+                                        preserveAspectRatio="xMidYMid meet"
+                                        viewBox="0 0 24 24"
+                                    >
+                                        <path
+                                            fill="currentColor"
+                                            d="M8.59 16.59L13.17 12L8.59 7.41L10 6l6 6l-6 6l-1.41-1.41z"
+                                        />
+                                    </svg>
+                                </a>
+                            </Link>
                         </div>
                     </div>
                 </nav>

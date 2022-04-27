@@ -8,11 +8,11 @@ module.exports = {
             colors: {
                 "river-styx": "#121823",
                 "bright-greek": "#3C43EE",
-                "dark_gray": "#09101a"
+                dark_gray: "#09101a",
             },
             fontFamily: {
-                'cerebri': ['Cerebri', 'sans-serif'],
-                'avenir': ['Avenir', 'sans-serif']
+                cerebri: ["Cerebri", "sans-serif"],
+                avenir: ["Avenir", "sans-serif"],
             }
         },
     },
