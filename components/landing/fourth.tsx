@@ -60,7 +60,7 @@ const Fourth = () => {
             <div className="lg:container xl:mx-auto my-32">
                 <div className="flex flex-col-reverse md:flex-row items-strech justify-center">
                     <div className="md:w-2/5 flex justify-center items-center -mt-14 md:-mt-0 md:-mr-12 md:py-24 lg:py-36 relative z-10 mx-4 md:mx-0">
-                        <div className="bg-gray-800 p-8 lg:p-10">
+                        <div className="bg-bright-greek p-8 lg:p-10">
                             <p className="text-base leading-none lg:text-xl lg:leading-tight text-white">
                                 Register
                             </p>
