@@ -10,19 +10,21 @@ const Navbar = () => {
                 <nav>
                     <div className=" flex flex-row justify-between">
                         <div className=" flex space-x-3 items-center">
-                            <h1 className="font-bold text-2xl font-cerebri leading-6 text-river-styx">
-                                WagPay
-                            </h1>
+                            <Link href="/">
+                                <a className="font-bold text-2xl font-cerebri leading-6 text-river-styx">
+                                    WagPay
+                                </a>
+                            </Link>
                         </div>
 
                         <div className=" hidden sm:flex xl:pl-4 lg:pl-3 justify-end flex-row sm:space-x-4 md:space-x-6 lg:space-x-3 xl:space-x-4">
-                            <a className="rounded-md flex space-x-2 w-24 h-10 font-normal font-avenir text-base leading-3 text-river-styx cursor-pointer justify-center items-center hover:text-gray-500">
+                            <a className="flex space-x-2 w-24 h-10 font-normal font-avenir text-base leading-3 text-river-styx cursor-pointer justify-center items-center hover:text-bright-greek">
                                 <p>Dashboard</p>
                             </a>
-                            <a className="rounded-md flex space-x-2 w-24 h-10 font-normal font-avenir text-base leading-3 text-river-styx cursor-pointer justify-center items-center hover:text-gray-500">
+                            <a className="rounded-md flex space-x-2 w-24 h-10 font-normal font-avenir text-base leading-3 text-river-styx cursor-pointer justify-center items-center hover:text-bright-greek">
                                 <p>Docs</p>
                             </a>
-                            <a className="rounded-md flex space-x-2 w-24 h-10 font-normal font-avenir text-base leading-3 text-river-styx cursor-pointer justify-center items-center hover:text-gray-500">
+                            <a className="rounded-md flex space-x-2 w-24 h-10 font-normal font-avenir text-base leading-3 text-river-styx cursor-pointer justify-center items-center hover:text-bright-greek">
                                 <p>Use Cases</p>
                             </a>
                             {/* Save button */}
@@ -67,14 +69,14 @@ const Navbar = () => {
                                 <path
                                     className=" transform duration-150"
                                     d="M4 6H20"
-                                    stroke="white"
+                                    stroke="#121823"
                                     strokeWidth="1.5"
                                     strokeLinecap="round"
                                     strokeLinejoin="round"
                                 />
                                 <path
                                     d="M4 12H20"
-                                    stroke="white"
+                                    stroke="#121823"
                                     strokeWidth="1.5"
                                     strokeLinecap="round"
                                     strokeLinejoin="round"
@@ -82,7 +84,7 @@ const Navbar = () => {
                                 <path
                                     className=" transform duration-150"
                                     d="M4 18H20"
-                                    stroke="white"
+                                    stroke="#121823"
                                     strokeWidth="1.5"
                                     strokeLinecap="round"
                                     strokeLinejoin="round"
@@ -98,14 +100,14 @@ const Navbar = () => {
                             >
                                 <path
                                     d="M18 6L6 18"
-                                    stroke="white"
+                                    stroke="#121823"
                                     strokeWidth="1.5"
                                     strokeLinecap="round"
                                     strokeLinejoin="round"
                                 />
                                 <path
                                     d="M6 6L18 18"
-                                    stroke="white"
+                                    stroke="#121823"
                                     strokeWidth="1.5"
                                     strokeLinecap="round"
                                     strokeLinejoin="round"
@@ -121,16 +123,16 @@ const Navbar = () => {
                             show ? "block" : "hidden"
                         } transform duration-150 sm:hidden mt-4`}
                     >
-                        <hr className=" w-full bg-white" />
+                        <hr className=" w-full bg-river-styx" />
                         <div className="flex flex-col gap-4 mt-4 max-w-sm mx-auto ">
-                            <a className="cursor-pointer rounded-md flex space-x-2 w-full h-10 font-normal text-sm leading-3 text-river-styx bg-white focus:outline-none focus:bg-gray-200 hover:bg-gray-200 duration-150 justify-center items-center">
+                            <a className="cursor-pointer rounded-md flex space-x-2 w-full h-10 font-normal text-sm leading-3 text-white bg-river-styx focus:outline-none focus:bg-gray-200 hover:bg-gray-200 duration-150 justify-center items-center">
                                 <p>Dashboard</p>
                             </a>
-                            <hr className="w-full bg-white" />
-                            <a className="cursor-pointer rounded-md flex space-x-2 w-full h-10 font-normal text-sm leading-3 text-river-styx bg-white focus:outline-none focus:bg-gray-200 hover:bg-gray-200 duration-150 justify-center items-center">
+                            <hr className="w-full bg-river-styx" />
+                            <a className="cursor-pointer rounded-md flex space-x-2 w-full h-10 font-normal text-sm leading-3 text-white bg-river-styx focus:outline-none focus:bg-gray-200 hover:bg-gray-200 duration-150 justify-center items-center">
                                 <p>Docs</p>
                             </a>
-                            <a className="cursor-pointer rounded-md flex space-x-2 w-full h-10 font-normal text-sm leading-3 text-river-styx bg-white focus:outline-none focus:bg-gray-200 hover:bg-gray-200 duration-150 justify-center items-center">
+                            <a className="cursor-pointer rounded-md flex space-x-2 w-full h-10 font-normal text-sm leading-3 text-white bg-river-styx focus:outline-none focus:bg-gray-200 hover:bg-gray-200 duration-150 justify-center items-center">
                                 <p>Use Cases</p>
                             </a>
                             {/* Getting Started button */}

@@ -56,8 +56,8 @@ const First = () => {
                                 <span className="block text-river-styx">
                                     Powering your
                                 </span>
-                                <span className="inline-block 2xl:my-4 text-bright-greek">
-                                    Finances &nbsp;
+                                <span className="inline-block 2xl:my-2 text-bright-greek">
+                                    Finances&nbsp;
                                 </span>
                                 <span className="inline-block text-river-styx">
                                     with next

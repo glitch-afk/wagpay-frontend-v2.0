@@ -13,7 +13,6 @@
 }
 
 .btn {
-    font-size: 15px;
     outline: none;
     border: 1px solid #3c43ee;
     background-color: white;
@@ -25,6 +24,7 @@
     content: "Get Started";
     /*button's value/text-content */
     position: absolute;
+    font-size: 17px;
     top: -6%;
     right: 2%;
     background-color: #3c43ee;
