@@ -82,7 +82,7 @@ const navigation = {
 
 const Footer = () => {
     return (
-        <footer className="bg-dark_gray" aria-labelledby="footer-heading">
+        <footer className="bg-white" aria-labelledby="footer-heading">
             <h2 id="footer-heading" className="sr-only">
                 Footer
             </h2>
@@ -91,7 +91,7 @@ const Footer = () => {
                     <div className="grid grid-cols-2 gap-8 xl:col-span-2">
                         <div className="md:grid md:grid-cols-2 md:gap-8">
                             <div>
-                                <h3 className="text-sm font-semibold font-avenir text-gray-400 tracking-wider uppercase">
+                                <h3 className="text-sm font-semibold font-avenir text-river-styx tracking-wider uppercase">
                                     Solutions
                                 </h3>
                                 <ul className="mt-4 space-y-4">
@@ -108,7 +108,7 @@ const Footer = () => {
                                 </ul>
                             </div>
                             <div className="mt-12 md:mt-0">
-                                <h3 className="text-sm font-semibold font-avenir text-gray-400 tracking-wider uppercase">
+                                <h3 className="text-sm font-semibold font-avenir text-river-styx tracking-wider uppercase">
                                     Support
                                 </h3>
                                 <ul className="mt-4 space-y-4">
@@ -127,7 +127,7 @@ const Footer = () => {
                         </div>
                         <div className="md:grid md:grid-cols-2 font-avenir md:gap-8">
                             <div>
-                                <h3 className="text-sm font-semibold font-avenir text-gray-400 tracking-wider uppercase">
+                                <h3 className="text-sm font-semibold font-avenir text-river-styx tracking-wider uppercase">
                                     Company
                                 </h3>
                                 <ul className="mt-4 space-y-4">
@@ -146,7 +146,7 @@ const Footer = () => {
                         </div>
                     </div>
                     <div className="mt-8 xl:mt-0">
-                        <h3 className="text-sm font-semibold font-avenir text-gray-400 tracking-wider uppercase">
+                        <h3 className="text-sm font-semibold font-avenir text-river-styx tracking-wider uppercase">
                             Subscribe to our newsletter
                         </h3>
                         <p className="mt-4 text-base font-avenir text-gray-500">
@@ -194,7 +194,7 @@ const Footer = () => {
                             </a>
                         ))}
                     </div>
-                    <p className="mt-8 text-base text-gray-400 md:mt-0 font-avenir md:order-1">
+                    <p className="mt-8 text-base text-river-styx md:mt-0 font-avenir md:order-1">
                         &copy; 2022 WagPay, Inc. All rights reserved.
                     </p>
                 </div>

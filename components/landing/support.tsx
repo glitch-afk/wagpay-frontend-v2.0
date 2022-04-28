@@ -2,7 +2,7 @@ const Support = () => {
     return (
         <div className="relative my-24 sm:mt-32 sm:py-16">
             <div aria-hidden="true" className="hidden sm:block">
-                <div className="absolute inset-y-0 left-0 w-1/2 bg-gray-600 opacity-10 rounded-r-3xl" />
+                <div className="absolute inset-y-0 left-0 w-1/2 bg-gray-50 rounded-r-3xl" />
                 <svg
                     className="absolute top-8 left-1/2 -ml-3"
                     width={404}
@@ -24,7 +24,7 @@ const Support = () => {
                                 y={0}
                                 width={4}
                                 height={4}
-                                className="text-gray-700"
+                                className="text-gray-200"
                                 fill="currentColor"
                             />
                         </pattern>
@@ -36,8 +36,8 @@ const Support = () => {
                     />
                 </svg>
             </div>
-            <div className="mx-auto max-w-md px-4 sm:max-w-3xl sm:px-6 lg:max-w-7xl lg:px-8">
-                <div className="relative rounded px-6 py-10 bg-indigo-500 overflow-hidden shadow-xl sm:px-12 sm:py-20">
+            <div className="mx-auto sm:max-w-3xl sm:px-6 lg:max-w-7xl">
+                <div className="relative  px-6 py-10 bg-indigo-500 overflow-hidden shadow-xl sm:px-12 sm:py-20">
                     <div
                         aria-hidden="true"
                         className="absolute inset-0 -mt-72 sm:-mt-32 md:mt-0"
@@ -77,9 +77,9 @@ const Support = () => {
                             <div className="mt-4 sm:mt-0 sm:ml-3">
                                 <button
                                     type="submit"
-                                    className="block w-full rounded-md border border-transparent px-5 py-3 bg-gray-900 text-base font-medium text-white shadow hover:bg-black focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-indigo-500 sm:px-10"
+                                    className="block w-full  border border-transparent px-5 py-3 btn1 text-base font-medium text-white focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-indigo-500 sm:px-10"
                                 >
-                                    Notify me
+                                    Contact Us
                                 </button>
                             </div>
                         </div>

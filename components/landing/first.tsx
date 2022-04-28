@@ -2,13 +2,13 @@ import Image from "next/image";
 
 const First = () => {
     return (
-        <div className="relative bg-dark_gray h-screen overflow-hidden mt-10">
+        <div className="relative bg-dark_white h-screen overflow-hidden mt-10">
             <div
                 className="hidden lg:block lg:absolute lg:inset-0"
                 aria-hidden="true"
             >
                 <svg
-                    className="absolute top-0 left-1/2 transform translate-x-64 -translate-y-8 opacity-20"
+                    className="absolute top-0 left-1/2 transform translate-x-64 -translate-y-8"
                     width={640}
                     height={784}
                     fill="none"
@@ -28,7 +28,7 @@ const First = () => {
                                 y={0}
                                 width={4}
                                 height={4}
-                                className="text-gray-600"
+                                className="text-gray-200"
                                 fill="currentColor"
                             />
                         </pattern>
@@ -37,7 +37,7 @@ const First = () => {
                         y={72}
                         width={640}
                         height={640}
-                        className="text-gray-800"
+                        className="text-gray-50"
                         fill="currentColor"
                     />
                     <rect
@@ -52,29 +52,29 @@ const First = () => {
                 <div className="lg:grid lg:grid-cols-12 lg:gap-8">
                     <div className="sm:text-center md:max-w-2xl md:mx-auto lg:col-span-6 lg:text-left">
                         <h1>
-                            <span className="mt-1 block text-5xl font-cerebri tracking-tight font-extrabold sm:text-5xl xl:text-7xl">
-                                <span className="block text-white">
-                                    Powering Your
+                            <span className="mt-1 mb-6 block text-5xl font-cerebri tracking-tight font-extrabold sm:text-5xl xl:text-7xl">
+                                <span className="block text-river-styx">
+                                    Powering your
                                 </span>
-                                <span className="inline-block text-bright-greek">
-                                    Finances
+                                <span className="inline-block 2xl:my-4 text-bright-greek">
+                                    Finances &nbsp;
                                 </span>
-                                <span className="inline-block text-white">
-                                    With Next
+                                <span className="inline-block text-river-styx">
+                                    with next
                                 </span>
-                                <span className="block text-white">
-                                    Chapter Of Internet
+                                <span className="block text-river-styx">
+                                    chapter of internet
                                 </span>
                             </span>
                         </h1>
-                        <p className="mt-3 text-base font-avenir text-gray-300 sm:mt-5 sm:text-xl lg:text-lg xl:text-xl">
+                        <p className="mt-3 mb-8 text-base font-avenir text-gray-600 sm:mt-5 sm:text-xl lg:text-lg xl:text-xl">
                             A payment solution that simplifies payment
                             acceptance for the next chapter of the internet.
                         </p>
                         <div className="mt-8 sm:max-w-lg sm:mx-auto sm:text-center lg:text-left lg:mx-0">
                             <button
                                 type="button"
-                                className="mt-3 btn font-avenir w-full px-8 py-4 cursor-pointer border-transparent text-base rounded text-white bg-bright-greek shadow-sm focus:outline-none sm:mt-0 ml-2 sm:flex-shrink-0 sm:inline-flex sm:items-center sm:w-auto"
+                                className="mt-3 btn font-avenir w-full px-8 py-4 cursor-pointer border-transparent text-base text-white bg-bright-greek shadow-sm focus:outline-none sm:mt-0 ml-2 sm:flex-shrink-0 sm:inline-flex sm:items-center sm:w-auto"
                             >
                                 Get Started
                             </button>
@@ -103,7 +103,7 @@ const First = () => {
                                         y={0}
                                         width={4}
                                         height={4}
-                                        className="text-gray-700"
+                                        className="text-gray-200"
                                         fill="currentColor"
                                     />
                                 </pattern>
@@ -112,7 +112,7 @@ const First = () => {
                                 y={72}
                                 width={640}
                                 height={640}
-                                className="text-gray-700"
+                                className="text-gray-50"
                                 fill="currentColor"
                             />
                             <rect
@@ -123,10 +123,7 @@ const First = () => {
                             />
                         </svg>
                         <div className="relative mx-auto w-full rounded shadow-lg lg:max-w-md">
-                            <button
-                                type="button"
-                                className="relative block w-full bg-river-styx rounded overflow-hidden focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
-                            >
+                            <div className="relative block w-full bg-river-styx rounded overflow-hidden focus:outline-none focus:ring-2 focus:ring-offset-2">
                                 <Image
                                     className="w-full"
                                     src="https://images.unsplash.com/photo-1650346910623-3a0d9ee1f2ae?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2371&q=80"
@@ -135,7 +132,7 @@ const First = () => {
                                     layout="responsive"
                                     objectFit="cover"
                                 />
-                            </button>
+                            </div>
                         </div>
                     </div>
                 </div>

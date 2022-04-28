@@ -5,29 +5,29 @@ import Link from "next/link";
 const Navbar = () => {
     const [show, setshow] = useState(false);
     return (
-        <div className="bg-river-styx font-avenir">
+        <div className="bg-white font-avenir">
             <div className="2xl:container 2xl:mx-auto lg:px-7 sm:px-6 py-6 px-4">
                 <nav>
                     <div className=" flex flex-row justify-between">
                         <div className=" flex space-x-3 items-center">
-                            <h1 className=" font-bold text-2xl font-avenir leading-6 text-gray-100">
+                            <h1 className="font-bold text-2xl font-cerebri leading-6 text-river-styx">
                                 WagPay
                             </h1>
                         </div>
 
                         <div className=" hidden sm:flex xl:pl-4 lg:pl-3 justify-end flex-row sm:space-x-4 md:space-x-6 lg:space-x-3 xl:space-x-4">
-                            <a className="rounded-md flex space-x-2 w-24 h-10 font-normal font-avenir text-base leading-3 text-gray-100 cursor-pointer justify-center items-center hover:text-gray-500">
+                            <a className="rounded-md flex space-x-2 w-24 h-10 font-normal font-avenir text-base leading-3 text-river-styx cursor-pointer justify-center items-center hover:text-gray-500">
                                 <p>Dashboard</p>
                             </a>
-                            <a className="rounded-md flex space-x-2 w-24 h-10 font-normal font-avenir text-base leading-3 text-gray-100 cursor-pointer justify-center items-center hover:text-gray-500">
+                            <a className="rounded-md flex space-x-2 w-24 h-10 font-normal font-avenir text-base leading-3 text-river-styx cursor-pointer justify-center items-center hover:text-gray-500">
                                 <p>Docs</p>
                             </a>
-                            <a className="rounded-md flex space-x-2 w-24 h-10 font-normal font-avenir text-base leading-3 text-gray-100 cursor-pointer justify-center items-center hover:text-gray-500">
+                            <a className="rounded-md flex space-x-2 w-24 h-10 font-normal font-avenir text-base leading-3 text-river-styx cursor-pointer justify-center items-center hover:text-gray-500">
                                 <p>Use Cases</p>
                             </a>
                             {/* Save button */}
                             <Link href="/signup">
-                                <a className="rounded flex space-x-2 w-48 h-10 font-normal font-avenir cursor-pointer text-base leading-3 text-white bg-bright-greek focus:outline-none focus:bg-indigo-800 focus:ring-2 focus:ring-offset-2 focus:ring-indigo-700 hover:bg-indigo-600 duration-150 justify-center items-center">
+                                <a className="rounded flex space-x-2 w-44 h-10 font-normal font-avenir cursor-pointer text-base leading-3 text-white bg-bright-greek focus:outline-none focus:bg-indigo-800 focus:ring-2 focus:ring-offset-2 focus:ring-indigo-700 hover:bg-indigo-600 duration-150 justify-center items-center">
                                     <p>Getting Started</p>
                                     <svg
                                         xmlns="http://www.w3.org/2000/svg"
