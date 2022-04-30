@@ -84,7 +84,7 @@ export default function Dashboard() {
                         leaveFrom="translate-x-0"
                         leaveTo="-translate-x-full"
                     >
-                        <div className="relative flex-1 flex flex-col max-w-xs w-full pt-5 pb-4 bg-river-styx">
+                        <div className="relative flex-1 flex flex-col max-w-xs w-full pt-5 pb-4 bg-white">
                             <Transition.Child
                                 as={Fragment}
                                 enter="ease-in-out duration-300"
@@ -97,21 +97,21 @@ export default function Dashboard() {
                                 <div className="absolute top-0 right-0 -mr-12 pt-2">
                                     <button
                                         type="button"
-                                        className="ml-1 flex items-center justify-center h-10 w-10 rounded-full focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white"
+                                        className="ml-1 flex items-center justify-center h-10 w-10 rounded-full focus:outline-none"
                                         onClick={() => setSidebarOpen(false)}
                                     >
                                         <span className="sr-only">
                                             Close sidebar
                                         </span>
                                         <XIcon
-                                            className="h-6 w-6 text-white"
+                                            className="h-6 w-6 text-river-styx"
                                             aria-hidden="true"
                                         />
                                     </button>
                                 </div>
                             </Transition.Child>
                             <div className="flex-shrink-0 flex items-center px-4">
-                                <span className="h-8 w-auto text-white font-extrabold text-xl">
+                                <span className="h-8 w-auto text-river-styx font-bold text-2xl">
                                     WagPay
                                 </span>
                             </div>
@@ -124,15 +124,15 @@ export default function Dashboard() {
                                             className={classNames(
                                                 item.current
                                                     ? "bg-bright-greek text-white"
-                                                    : "text-gray-300 hover:bg-indigo-200 hover:text-bright-greek",
-                                                "group flex items-center px-2 py-2 text-base font-medium rounded"
+                                                    : "text-river-styx hover:bg-indigo-200 hover:text-bright-greek",
+                                                "group flex items-center px-2 py-2 text-base"
                                             )}
                                         >
                                             <item.icon
                                                 className={classNames(
                                                     item.current
                                                         ? "text-gray-300"
-                                                        : "text-gray-400 group-hover:text-bright-greek",
+                                                        : "text-river-styx group-hover:text-bright-greek",
                                                     "mr-4 flex-shrink-0 h-6 w-6"
                                                 )}
                                                 aria-hidden="true"
@@ -143,7 +143,7 @@ export default function Dashboard() {
                                 </nav>
                             </div>
                             {/* sidebar bottom panel */}
-                            <div className="py-3 border-t border-gray-700">
+                            <div className="py-3 border-t border-gray-200">
                                 <nav className="px-2 space-y-3">
                                     {bottomNavigation.map((item) => (
                                         <a
@@ -152,8 +152,8 @@ export default function Dashboard() {
                                             className={classNames(
                                                 item.current
                                                     ? "bg-bright-greek text-white"
-                                                    : "text-gray-300 hover:bg-indigo-200 hover:text-bright-greek",
-                                                "group flex items-center px-2 py-2 text-base font-medium rounded"
+                                                    : "text-river-styx hover:bg-indigo-200 hover:text-bright-greek",
+                                                "group flex items-center px-2 py-2 text-base"
                                             )}
                                         >
                                             <item.icon
@@ -178,9 +178,9 @@ export default function Dashboard() {
             {/* Static sidebar for desktop */}
             <div className="hidden md:flex md:w-64 md:flex-col md:fixed md:inset-y-0">
                 {/* Sidebar component */}
-                <div className="flex-1 flex flex-col min-h-0 bg-river-styx">
-                    <div className="flex items-center h-16 flex-shrink-0 px-4 bg-gray-900">
-                        <span className="h-8 w-auto text-white font-extrabold text-xl">
+                <div className="flex-1 flex flex-col min-h-0 bg-white">
+                    <div className="flex items-center h-16 flex-shrink-0 px-4">
+                        <span className="h-8 w-auto text-river-styx font-extrabold text-xl">
                             WagPay
                         </span>
                     </div>
@@ -194,15 +194,15 @@ export default function Dashboard() {
                                     className={classNames(
                                         item.current
                                             ? "bg-bright-greek text-white "
-                                            : "text-gray-300 hover:bg-indigo-200 hover:text-bright-greek",
-                                        "group flex items-center px-2 py-2 text-sm font-medium rounded"
+                                            : "text-river-styx hover:bg-indigo-200 hover:text-bright-greek",
+                                        "group flex items-center px-2 py-2 text-sm"
                                     )}
                                 >
                                     <item.icon
                                         className={classNames(
                                             item.current
                                                 ? "text-gray-300"
-                                                : "text-gray-400 group-hover:text-bright-greek",
+                                                : "text-river-styx group-hover:text-bright-greek",
                                             "mr-3 flex-shrink-0 h-6 w-6"
                                         )}
                                         aria-hidden="true"
@@ -212,7 +212,7 @@ export default function Dashboard() {
                             ))}
                         </nav>
                         {/* sidebar bottom panel desktop size */}
-                        <div className="py-3 border-t border-gray-700">
+                        <div className="py-3 border-t border-gray-200">
                             <nav className="px-2 space-y-3">
                                 {bottomNavigation.map((item) => (
                                     <a
@@ -221,8 +221,8 @@ export default function Dashboard() {
                                         className={classNames(
                                             item.current
                                                 ? "bg-bright-greek text-white"
-                                                : "text-gray-300 hover:bg-indigo-200 hover:text-bright-greek",
-                                            "group flex items-center px-2 py-2 text-base font-medium rounded"
+                                                : "text-river-styx hover:bg-indigo-200 hover:text-bright-greek",
+                                            "group flex items-center px-2 py-2 text-base"
                                         )}
                                     >
                                         <item.icon
@@ -243,7 +243,7 @@ export default function Dashboard() {
                 </div>
             </div>
             <div className="md:pl-64 flex flex-col">
-                <div className="sticky top-0 z-10 flex-shrink-0 flex h-16 bg-white shadow">
+                <div className="sticky top-0 z-10 flex-shrink-0 flex h-16 bg-white">
                     <button
                         type="button"
                         className="px-4 border-r border-gray-200 text-gray-500 focus:outline-none md:hidden"
@@ -270,7 +270,7 @@ export default function Dashboard() {
                             {/* Profile dropdown */}
                             <Menu as="div" className="ml-3 relative">
                                 <div>
-                                    <Menu.Button className="max-w-xs bg-river-styx text-white py-3 px-4 flex items-center text-sm rounded focus:outline-none">
+                                    <Menu.Button className="max-w-xs bg-bright-greek text-white py-3 px-5 flex items-center text-sm focus:outline-none">
                                         <span className="sr-only">
                                             Open user menu
                                         </span>
@@ -286,7 +286,7 @@ export default function Dashboard() {
                                     leaveFrom="transform opacity-100 scale-100"
                                     leaveTo="transform opacity-0 scale-95"
                                 >
-                                    <Menu.Items className="origin-top-right absolute right-0 mt-2 w-48 rounded shadow-lg py-1 bg-white ring-1 ring-black ring-opacity-5 focus:outline-none">
+                                    <Menu.Items className="origin-top-right absolute right-0 mt-2 w-48 shadow-lg py-1 bg-white ring-1 ring-black ring-opacity-5 focus:outline-none">
                                         {userNavigation.map((item) => (
                                             <Menu.Item key={item.name}>
                                                 {({ active }) => (
