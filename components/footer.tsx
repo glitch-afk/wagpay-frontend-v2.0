@@ -82,7 +82,7 @@ const navigation = {
 
 const Footer = () => {
     return (
-        <footer className="bg-white" aria-labelledby="footer-heading">
+        <footer className="bg-transparent" aria-labelledby="footer-heading">
             <h2 id="footer-heading" className="sr-only">
                 Footer
             </h2>
@@ -164,13 +164,13 @@ const Footer = () => {
                                 id="email-address"
                                 autoComplete="email"
                                 required
-                                className="appearance-none font-avenir min-w-0 w-full bg-white border border-gray-300 rounded shadow-sm py-2 px-4 text-base text-gray-900 placeholder-gray-500 focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 focus:placeholder-gray-400"
+                                className="appearance-none font-avenir min-w-0 w-full bg-white border border-gray-300 shadow-sm py-2 px-4 text-base text-gray-900 placeholder-gray-500 focus:outline-none focus:ring-bright-greek focus:bright-greek focus:placeholder-gray-400"
                                 placeholder="Enter your email"
                             />
-                            <div className="mt-3 rounded sm:mt-0 sm:ml-3 sm:flex-shrink-0">
+                            <div className="mt-3 sm:mt-0 sm:ml-3 sm:flex-shrink-0">
                                 <button
                                     type="submit"
-                                    className="w-full font-avenir bg-bright-greek flex items-center justify-center border border-transparent rounded py-2 px-4 text-base font-medium text-white hover:bg-indigo-700 focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
+                                    className="w-full font-avenir bg-bright-greek flex items-center justify-center border border-transparent py-2 px-4 text-base font-medium text-white hover:bg-bright-greek focus:ring-2 focus:ring-offset-2 focus:ring-bright-greek"
                                 >
                                     Subscribe
                                 </button>

@@ -30,7 +30,7 @@ const Fourth = () => {
                         />
                     </div>
                     <div className="md:w-2/5 flex justify-center items-center -mt-14 md:-mt-0 md:-ml-12 lg:-ml-16 md:py-24 lg:py-36 relative z-10 mx-4 md:mx-0">
-                        <div className="bg-river-styx font-cerebri p-8 lg:p-10">
+                        <div className="bg_pattern2 relative font-cerebri p-8 lg:p-10">
                             <p className="text-base leading-none lg:text-xl lg:leading-tight text-white">
                                 Register
                             </p>
@@ -60,7 +60,7 @@ const Fourth = () => {
             <div className="lg:container xl:mx-auto my-32">
                 <div className="flex flex-col-reverse md:flex-row items-strech justify-center">
                     <div className="md:w-2/5 flex justify-center items-center -mt-14 md:-mt-0 md:-mr-12 md:py-24 lg:py-36 relative z-10 mx-4 md:mx-0">
-                        <div className="bg-bright-greek p-8 lg:p-10">
+                        <div className="bg-indigo-500 p-8 lg:p-10 relative bg_pattern">
                             <p className="text-base leading-none lg:text-xl lg:leading-tight text-white">
                                 Register
                             </p>
@@ -124,7 +124,7 @@ const Fourth = () => {
                         />
                     </div>
                     <div className="md:w-2/5 flex justify-center items-center -mt-14 md:-mt-0 md:-ml-12 lg:-ml-16 md:py-24 lg:py-36 relative z-10 mx-4 md:mx-0">
-                        <div className="bg-river-styx p-8 lg:p-10">
+                        <div className="bg_pattern2 p-8 lg:p-10 relative">
                             <p className="text-base leading-none lg:text-xl lg:leading-tight text-white">
                                 Register
                             </p>

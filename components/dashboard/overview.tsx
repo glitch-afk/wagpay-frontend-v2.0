@@ -70,7 +70,20 @@ export const options = {
     },
 };
 
-const labels = ["January", "February", "March", "April", "May", "June", "July"];
+const labels = [
+    "January",
+    "February",
+    "March",
+    "April",
+    "May",
+    "June",
+    "July",
+    "August",
+    "September",
+    "October",
+    "Novemeber",
+    "December",
+];
 
 export const data = {
     labels,
@@ -78,7 +91,7 @@ export const data = {
         {
             label: "Dates",
             data: labels.map(() =>
-                faker.datatype.number({ min: 0, max: 100000 })
+                faker.datatype.number({ min: 0, max: 1000 })
             ),
             borderColor: "rgb(255, 99, 132)",
             backgroundColor: "rgba(255, 99, 132, 0.5)",
@@ -143,7 +156,7 @@ const Overview = () => {
                                     viewBox="0 0 1463 360"
                                 >
                                     <path
-                                        className="text-bright-greek text-opacity-40"
+                                        className="text-bright-greek text-opacity-60"
                                         fill="currentcolor"
                                         d="M-217.088 544.086L1544.761 72l134.327 501.316-1761.849 472.086z"
                                     />
@@ -169,72 +182,44 @@ const Overview = () => {
                     ))}
                 </div>
             </div>
-            <div className="pt-6 mx-auto ">
-                <div className="grid grid-cols-1 xl:grid-cols-3 w-full space-y-8 xl:space-y-0 space-x-2">
+            <div className="pt-6 mx-auto">
+                <div className="grid grid-cols-1 xl:grid-cols-3 w-full h-1/2 space-y-8 xl:space-y-0 space-x-2">
                     {/* section #2 left side */}
-                    <div className="w-full col-span-2 pb-6 md:pb-0 md:pr-6 h-max">
-                        <div className="">
+                    <div className="flex w-full col-span-2 md:pb-0">
+                        <div className="bg-indigo-50 py-4 px-4 rounded w-full">
                             <Line options={options} data={data} />
                         </div>
                     </div>
                     {/* section #2 right side */}
-                    <div className="w-full h-max col-span-1">
-                        <div className="">
-                            <div className="mx-auto max-w-md px-4 sm:max-w-3xl sm:px-6 lg:h-full lg:p-0">
-                                <div className="aspect-w-10 bg-white aspect-h-6 sm:aspect-w-16 sm:aspect-h-7 lg:aspect-none overflow-hidden shadow-xl lg:h-full">
-                                    <div className="relative object-cover lg:h-full lg:w-full">
-                                        <div className="z-50 flex h-full w-full flex-col items-center justify-center space-y-5 bg-[#6C7EE1]/25 p-5">
-                                            <h1 className=" py-3 px-4 font-cerebri text-3xl text-center font-bold text-river-styx">
-                                                Claim Username
-                                            </h1>
-                                            <input
-                                                type="email"
-                                                placeholder="example@email.com"
-                                                className="w-full font-avenir border border-[#abaef8] py-4 pl-4 text-sm text-river-styx bg-white font-base outline-none"
-                                            />
-                                            <div className="flex w-full justify-between">
-                                                <input
-                                                    type="text"
-                                                    placeholder="@username"
-                                                    className="w-full font-avenir border border-[#abaef8] py-3 pl-4 text-river-styx text-sm font-base bg-white outline-none"
-                                                />
-                                                <button className="w-1/3 font-avenir bg-bright-greek py-3 px-4 font-medium text-white shadow hover:bg-indigo-700 focus:outline-none">
-                                                    Check
-                                                </button>
-                                            </div>
-                                            {true ? (
-                                                <button className="flex w-full items-center bg-white justify-between border border-[#abaef8] p-3  font-base">
-                                                    <span className="text-river-styx font-avenir">
-                                                        Connect Ethereum Wallet
-                                                    </span>
-                                                    <img
-                                                        src=""
-                                                        alt=""
-                                                        className="items-end"
-                                                    />
-                                                </button>
-                                            ) : (
-                                                <p className="w-20 truncate text-center lg:w-full">
-                                                    eth
-                                                </p>
-                                            )}
-                                            {true ? (
-                                                <button className="font-avenir flex w-full text-river-styx bg-white items-center justify-between border border-[#abaef8] p-3  font-base">
-                                                    Connect Sol Wallet
-                                                    <img
-                                                        src="/sol.png"
-                                                        alt=""
-                                                    />
-                                                </button>
-                                            ) : (
-                                                <p className="w-20 truncate text-center lg:w-full">
-                                                    Sol
-                                                </p>
-                                            )}
-                                            <button className="w-full font-avenir bg-bright-greek py-3 px-4 font-medium text-white shadow  hover:bg-indigo-700 focus:outline-none">
-                                                Claim
-                                            </button>
-                                        </div>
+                    <div className="flex w-full col-span-1 h-full bg-green-100 rounded">
+                        <div className="w-full">
+                            {/* card */}
+                            <div className="w-full h-full flex items-center justify-center">
+                                <div className="w-full flex flex-col items-center py-8 md:py-6 bg-bright-greek h-full">
+                                    <div className="w-full flex items-center justify-center">
+                                        <span className="inline-block h-28 w-28 mt-6 rounded-full overflow-hidden bg-gray-100">
+                                            <svg
+                                                className="h-full w-full text-gray-300"
+                                                fill="currentColor"
+                                                viewBox="0 0 24 24"
+                                            >
+                                                <path d="M24 20.993V24H0v-2.996A14.977 14.977 0 0112.004 15c4.904 0 9.26 2.354 11.996 5.993zM16.002 8.999a4 4 0 11-8 0 4 4 0 018 0z" />
+                                            </svg>
+                                        </span>
+                                    </div>
+                                    <div className="text-xl font-bold font-avenir text-white mt-6">
+                                        v3n0m
+                                    </div>
+                                    <div className="text-sm font-light font-avenir text-white mt-1">
+                                        @v3n0m_wiskey
+                                    </div>
+                                    <div className="flex flex-col items-center mt-7 space-y-4">
+                                        <button className="bg-white py-4 w-full px-12 font-avenir">
+                                            Ethereum Wallet Address
+                                        </button>
+                                        <button className="bg-white py-4 w-full px-12 font-avenir">
+                                            Solana Wallet Address
+                                        </button>
                                     </div>
                                 </div>
                             </div>

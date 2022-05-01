@@ -5,7 +5,7 @@ const Third = () => {
     return (
         <div
             id="claim"
-            className=" bg-bright-greek pb-16 lg:relative lg:pb-0 lg:my-20"
+            className="bg_pattern pb-16 lg:relative lg:pb-0 lg:my-20"
         >
             <div className="lg:mx-auto lg:grid lg:max-w-7xl lg:grid-cols-3 lg:gap-8 lg:px-8">
                 <div className="relative lg:-my-8">
@@ -69,11 +69,12 @@ const Third = () => {
                         </div>
                     </div>
                 </div>
+
                 <div className="mt-12 lg:col-span-2 lg:m-0 lg:pl-8 flex items-center">
                     <div className="mx-auto max-w-md px-4 sm:max-w-2xl sm:px-6 lg:max-w-none lg:px-0 lg:py-20">
                         <blockquote>
                             <div>
-                                <p className="mt-6 font-cerebri text-2xl font-medium text-white">
+                                <p className="mt-6 font-cerebri text-3xl font-medium text-white">
                                     WagPay username is a step to create your
                                     store / pages and start accepting payments
                                     in multiple cryptocurrencies
